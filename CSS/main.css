@@ -1,0 +1,429 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #E8E8EA;
+}
+#hr{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+/**************************NAVIGATION BAR*****************************/
+
+.nav-bar{
+	width: 100%;
+	margin: 0 auto;
+	/*background-color: #E8E8EA;*/
+}
+.inner-nav-bar img{
+	margin: 0px 16px 0px 15px;
+	padding: 15px;
+}
+.inner-nav-bar{
+	width: 90%;
+	margin: 0 auto;
+}
+.inner-nav-bar ul{
+	float: right;
+	margin-top: 30px;
+}
+.inner-nav-bar ul li{
+	list-style: none;
+	float: left;
+	font-family: Roboto;
+	font-size: 14px;
+}
+.inner-nav-bar ul li a{
+	text-decoration: none;
+	margin: 0px 20px;
+	padding: 20px 0px;
+	font-weight: bold;
+	color: #011627;
+}
+
+
+/*****************LANDING PAGE - HERO IMAGE AND TEXT**********************/
+
+.hero-content{
+	width: 100%;
+	min-height: 500px;
+	background-image: url(../img/groceries.jpg);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: top-left;
+	background-attachment: cover;
+
+}
+.content-main{
+	width: 36%;
+	margin: 0 auto;
+	margin-right: 60px;
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+.content-main h1{
+	font-size: 50px;
+	font-family: Nirmala UI;
+	font-weight: bold;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	line-height: 1.0em;
+	/*padding-top: 50px;*/
+	padding-bottom: 30px;
+}
+#heading{
+	color: #E71D36;
+}
+.content-main p{
+	font-family: Roboto;
+	font-size: 18px;
+	color: #011627;
+	text-align: left;
+	line-height: 1.3em;
+}
+
+
+
+/************************BODY - ABOUT CART SHOPPO*******************************/
+
+
+.about-cart-shoppo{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 70px;
+	overflow: auto;
+}
+.panel{
+	float: left;
+}
+.about-the-product{
+	width: 45%;
+	margin: 0 auto;
+	margin-right: 10%;
+	overflow: auto;
+	margin-top: 80px;
+}
+.product-img{
+	width: 45%;
+	margin: 0 auto;
+}
+.about-the-product h2{
+	font-size: 50px;
+	color: #E71D36;
+	font-family: Nirmala UI;
+	font-weight: bold;
+	text-align: left;
+	padding-top: 20px;
+	line-height: 0.8em;
+}
+.about-the-product p{
+	font-family: Roboto;
+	font-size: 18px;
+	color: #011627;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+/******************BODY - THE PROCESS*********************/
+.the-process{
+	width: 100%;
+	min-height: 700px;
+	margin: 0 auto;
+	background-color: #E8E8EA;
+	margin-top: 100px;
+}
+.how-it-works{
+	width: 90%;
+	min-height: 500px;
+	margin: 0 auto;
+}
+.panel1{
+	float: left;
+}
+.image{
+	width: 50%;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.image-content{
+	width: 50%;
+	min-height: 500px;
+}
+.inner-content{
+	width: 80%;
+	min-height: 300px;
+	margin: 0 auto;
+	margin-top: 120px;
+}
+.inner-content h1{
+	font-size: 50px;
+	font-weight: bold;
+	font-family: Nirmala UI;
+}
+.inner-content h3{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Nirmala UI;
+	color: #E71D36;;
+}
+.inner-content p{
+	font-family: Roboto;
+	font-size: 18px;
+	color: #011627;
+}
+
+/*PROCESS 2*/
+.process2{
+	width: 90%;
+	min-height: 500px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.panel2{
+	float: left;
+}
+.content{
+	width: 50%;
+	min-height: 500px;
+	margin: 0 auto;
+}
+.inner-content2{
+	width: 80%;
+	min-height: 300px;
+	margin: 0 auto;
+	margin-top: 120px;
+}
+.inner-content2 h1{
+	font-size: 50px;
+	font-weight: bold;
+	font-family: Nirmala UI;
+	color: #011627;
+}
+.inner-content2 h3{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Nirmala UI;
+	color: #E71D36;;
+}
+.inner-content2 p{
+	font-family: Roboto;
+	font-size: 18px;
+	color: #011627;
+}
+.image-cont{
+	width: 50%;
+	min-height: 500px;
+	margin: 0 auto;
+}
+
+
+/*PROCESS 3*/
+.process3{
+	width: 90%;
+	min-height: 500px;
+	margin: 0 auto;
+	overflow: auto;
+	margin-top: 120px;
+}
+.panel3{
+	float: left;
+}
+.content{
+	width: 50%;
+	min-height: 500px;
+	margin: 0 auto;
+}
+.inner-content3{
+	width: 80%;
+	min-height: 300px;
+	margin: 0 auto;
+	margin-top: 120px;
+}
+.inner-content3 h1{
+	font-size: 50px;
+	font-weight: bold;
+	font-family: Nirmala UI;
+	color: #011627;
+}
+.inner-content3 h3{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Nirmala UI;
+	color: #E71D36;
+}
+.inner-content3 p{
+	font-family: Roboto;
+	font-size: 18px;
+	color: #011627;
+}
+.image-cont2{
+	width: 50%;
+	min-height: 500px;
+	margin: 0 auto;
+}
+
+/*BODY FEATURES */
+.features{
+	width: 100%;
+	min-height: 300px;
+	margin: 0 auto;
+	margin-top: 200px;
+	margin-bottom: 200px;
+}
+.description{
+	float: left;
+}
+.features h1{
+	text-align: center;
+	color: #E71D36;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: Nirmala UI;
+	margin-bottom: 40px;
+}
+.feature1{
+	width: 33.3%;
+	min-height: 471px;
+	margin: 0 auto;
+	background-color: #E95A58;
+}
+.inner-feature1{
+	width: 90%;
+	min-height: 200px;
+	margin: 0 auto;
+	padding: 10%;
+}
+.inner-feature1 h2{
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	padding-bottom: 15px;
+}
+.inner-feature1 p{
+	text-align: center;
+	font-size: 18px;
+	color: #011627;
+}
+.feature2{
+	width: 33.3%;
+	min-height: 471px;
+	margin: 0 auto;
+	background-color: #B9B9DC;
+}
+.inner-feature2{
+	width: 90%;
+	min-height: 200px;
+	margin: 0 auto;
+	padding: 10%;
+}
+.inner-feature2 h2{
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	padding-bottom: 15px;
+}
+.inner-feature2 p{
+	text-align: center;
+	font-size: 18px;
+	color: #011627;
+}
+.feature3{
+	width: 33.3%;
+	min-height: 400px;
+	margin: 0 auto;
+	background-color: #F5BD6E;
+}
+.inner-feature3{
+	width: 90%;
+	min-height: 20px;
+	margin: 0 auto;
+	padding: 10%;
+}
+.inner-feature3 h2{
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	padding-bottom: 15px;
+}
+.inner-feature3 p{
+	text-align: center;
+	font-size: 18px;
+	color: #011627;
+}
+
+
+/**********************FOOTER****************************/
+.footer-cont{
+	width: 100%;
+	min-height: 100px;
+	margin: 0 auto;
+	background-color: #fff;
+	overflow:  auto;
+	padding-top: 120px;
+}
+.footer{
+	width: 70%;
+	min-height: 100px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.icons{
+	width: 40%;
+	min-height: 40px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+.icons ul{
+	float: right;
+}
+.icons ul li{
+	list-style: none;
+	float: left;
+	font-family: Roboto;
+	font-size: 14px;
+}
+.icons ul li i{
+	text-decoration: none;
+	margin: 0px 20px;
+	padding: 20px 0px;
+	font-weight: bold;
+	color: #E71D36;
+	font-size: 35px;
+}
+.links{
+	width: 70%;
+	margin: 0 auto;
+	margin-left: 90px;
+	text-align: center;
+}
+.links ul{
+	float: right;
+}
+.links ul li{
+	list-style: none;
+	float: left;
+	font-family: Roboto;
+	font-size: 14px;
+}
+.links ul li a{
+	text-decoration: none;
+	color: #011627;
+	font-size: 14px;
+	padding: 5px;
+}
+
+/*COPYRIGHT*/
+.copyright{
+	width: 100%;
+	background-color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	padding-left: 100px;
+}
+
+
